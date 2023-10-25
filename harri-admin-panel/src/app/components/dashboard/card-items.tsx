@@ -83,7 +83,7 @@ const CardItems = () => {
         />
         <CardItem
           title="Total Orders"
-          amount={(dashboardOrderAmount?.totalOrderAmount as number).toFixed(2)}
+          amount={parseInt((dashboardOrderAmount?.totalOrderAmount as number).toFixed(2))}
           icon={<TotalOrders />}
           clr="text-warning bg-warning/10"
           clr2="bg-warning"

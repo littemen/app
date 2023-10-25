@@ -28,6 +28,7 @@ export interface IProduct {
   type?: string;
   itemInfo?: string;
   status: string;
+  img: string;
 }
 
 export interface ProductResponse {

@@ -1,4 +1,4 @@
-import { ImageURL } from "@/hooks/useProductSubmit";
+// import { ImageURL } from "@/hooks/useProductSubmit";
 import { TagsInput } from "react-tag-input-component";
 
 const Sizes = ({
@@ -8,7 +8,7 @@ const Sizes = ({
 }: {
   handleSizeChange: (sizes: string[], index: number) => void;
   index:number;
-  field:ImageURL
+  field:any
 }) => {
   return (
     <div className="mb-5">
